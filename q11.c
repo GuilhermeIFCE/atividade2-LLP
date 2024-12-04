@@ -10,9 +10,9 @@ int main() {
     scanf("%i", &num2);
 
     if(num1 > num2){
-        printf("O primerio número (%i) é maior que o segundo número (%i).\n", num1, num2);
+        printf("O primerio número (%i) é maior, e o segundo número (%i) é o menor.\n", num1, num2);
     } else {
-        printf("O segundo número (%i) é maior que o primeiro número (%i).\n", num2, num1);
+        printf("O segundo número (%i) é maior, e o primeiro número (%i) é menor.\n", num2, num1);
     }
 
     return 0;
