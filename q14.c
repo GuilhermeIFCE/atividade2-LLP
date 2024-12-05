@@ -8,7 +8,7 @@ int main() {
     scanf("%f", &altura);
 
     printf("Informe seu sexo:\nf-feminino\nm-masculino\n");
-    scanf("%s", &sexo);
+    scanf(" %c", &sexo);
 
     if(sexo == 'f'){
         pesoIdeal = 62.1 * altura - 44.7;
